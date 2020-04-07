@@ -3,5 +3,9 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  
+  return document.getElementById('nested')
+}
+
+function increaseRankBy(n){
+  const ranks = document.getElemebtById()
 }
