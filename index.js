@@ -7,5 +7,10 @@ function nestedTarget(){
 }
 
 function increaseRankBy(n){
-  const ranks = document.getElemebtById('ranked-list')
+  const ranks = document.getElemebtById('ranked-list').querySelectorAll('li')
+  
+  for (let i = 0; i < ranks.length; i++){
+    ranks[i] = rank[i].parseInt + num
+  }
+  
 }
