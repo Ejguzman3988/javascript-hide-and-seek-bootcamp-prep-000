@@ -23,6 +23,9 @@ function deepestChild(){
   
   while( current || current === 0){
     if (current !== 'div'){
+      return current
+    }
+    else{
       
     }
   }
