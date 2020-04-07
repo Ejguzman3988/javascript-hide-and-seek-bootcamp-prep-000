@@ -23,7 +23,7 @@ function deepestChild(){
   
   while( current || current === 0){
     if (current === 'boo!'){
-      return current
+      return current.innerHTML
     }
     
     if (Array.isArray(current)) {
@@ -34,4 +34,5 @@ function deepestChild(){
     
     current = next.shift()
   }
+  
 }
