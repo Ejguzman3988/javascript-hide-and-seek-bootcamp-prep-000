@@ -26,7 +26,7 @@ function deepestChild(){
       return current
     }
     
-    if (Array.isArray())
+    if (Array.isArray(current))
   }
   
   
