@@ -22,6 +22,8 @@ function deepestChild(){
   let next = []
   
   while( current || current === 0){
-    if (current !== 'div')
+    if (current !== 'div'){
+      
+    }
   }
 }
