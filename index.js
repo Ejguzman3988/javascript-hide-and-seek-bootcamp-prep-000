@@ -21,7 +21,7 @@ function deepestChild(){
   let current = deep;
   let next = []
   
-  for (let i = 0; i < deep.length; i++){
+  while( current || current === 0){
     
   }
 }
