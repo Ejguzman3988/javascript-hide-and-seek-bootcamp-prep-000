@@ -3,7 +3,7 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  return document.getElementById('nested').querySelectorAll('Div')[3]
+  return document.getElementById('nested').querySelectorAll('div')[3]
 }
 
 function increaseRankBy(n){
@@ -22,6 +22,6 @@ function deepestChild(){
   let next = []
   
   while( current || current === 0){
-    if (current !== 'Div')
+    if (current !== 'div')
   }
 }
