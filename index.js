@@ -4,6 +4,7 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   return document.getElementById('nested').querySelector('Div Div Div')
+}
 
 function increaseRankBy(n){
   const ranks = document.getElemebtById('ranked-list').querySelectorAll('li')
