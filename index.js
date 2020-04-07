@@ -26,7 +26,11 @@ function deepestChild(){
       return current
     }
     
-    if (Array.isArray(current))
+    if (Array.isArray(current)){
+      for (let i = 0; i < current.length; i++){
+        
+      }
+    }
   }
   
   
