@@ -25,8 +25,11 @@ function deepestChild(){
     if (current !== 'div'){
       return current
     }
-    else{
-      
+    
+    if (Array.isArray(current)) {
+      for (let i = 0; i < current.length; i++) {
+        next.push(current[i])
+      }
     }
   }
 }
